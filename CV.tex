@@ -1,0 +1,275 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\colorlet{awesome}{awesome-red}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Alex}{Muhl-Richardson}
+
+
+\email{\href{mailto:a.muhl.richardson@gmail.com}{\nolinkurl{a.muhl.richardson@gmail.com}}}
+\github{alexmuhl-r}
+\linkedin{alex-muhl-richardson}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+\quote{I am a behavioural scientist interested in using psychology and
+data to address real-world problems, whether this is developing new
+approaches to improving human performance at airport security or
+understanding the impact of zebra stripes on predator behaviour. I have
+a particular interest in how individual differences in cognitive,
+affective and personality factors can explain human behaviour and have
+extensive experience collecting and working with large datasets,
+including behavioural, eye movement and psychophysiological data.}
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {}
+    {Alex Muhl-Richardson~~~·~~~Curriculum Vitae}
+  {\thepage~ of \pageref{LastPage}~}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{experience}{%
+\section{Experience}\label{experience}}
+
+\begin{cventries}
+    \cventry{Department of Communication and Applied Behavioural Science, Royal Military Academy Sandhurst}{Senior Lecturer in Behavioural Science}{Camberley, UK}{11/2021 - Present}{\begin{cvitems}
+\item Behavioural science research, focussed on the challenges of a military learning environment
+\item Used R to process, analyse and visualise survey and interview data, generating research outputs to inform best practice
+\item Developing and delivering evidence-based courses for the British Army and military audiences internationally
+\end{cvitems}}
+    \cventry{Cognition and Motivated Behaviour Lab, Department of Psychology, University of Cambridge}{Research and Teaching Associate}{Cambridge, UK}{04/2021 - 11/2021}{\begin{cvitems}
+\item Developed behavioural tasks in Python for experimental psychology research on learning and memory
+\item Collected data to validate tasks, used R for data processing, analysis and visualisation
+\end{cvitems}}
+    \cventry{Visual Cognition Lab, Department of Psychology, University of Cambridge}{Research Associate}{Cambridge, UK}{04/2018 - 04/2021}{\begin{cvitems}
+\item Responsible for a series of projects on attention and cognition, including experimental design, data collection and writing papers
+\item Developed experimental tasks in Python, MATLAB and JavaScript, web-scraped images for experimental stimuli
+\item Conducted data analysis, including significance testing, linear fixed and mixed models, decision modelling, and clustering in R and Python
+\end{cvitems}}
+    \cventry{Department of Psychology, Nottingham Trent University}{Research Associate}{Nottingham, UK}{11/2017 - 04/2018}{\begin{cvitems}
+\item Supported multiple projects across the department, contributing to experimental design, data collection and analysis and writing papers
+\item Designed and conducted experiments, involving eye tracking, neuroscience datasets and driving performance
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\begin{cventries}
+    \cventry{Centre for Vision and Cognition, School of Psychology, University of Southampton}{PhD Psychology}{Southampton, UK}{2013 - 2018}{\begin{cvitems}
+\item Main research project: Individual Differences in Dynamic Visual Search
+\item Led a four-year programme of research - developing research questions, experimental design, data collection, analysis and publishing papers
+\item Received PhD studentship (£85,502) from the Defence Science and Technology Laboratory, delivered outputs to government stakeholders
+\end{cvitems}}
+    \cventry{Department of Psychology, University of Sheffield}{MSc Psychological Research Methods (Distinction)}{Sheffield, UK}{2012 - 2013}{\begin{cvitems}
+\item Main research project: The effects of autistic traits on social attention during deception
+\item Received the Michael Siegal prize for the best research project in the cohort
+\end{cvitems}}
+    \cventry{Department of Psychology, University of Sheffield}{BA (Hons) Philosophy and Psychology (Upper Second Class)}{Sheffield, UK}{2009 - 2012}{\begin{cvitems}
+\item Main research project: The effects of display medium on memory - a comparison of LCD and E Ink displays
+\item Carried out additional project to research and develop training for vibro-tactile sensory augmentation equipment for fire and rescue services
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{skills}{%
+\section{Skills}\label{skills}}
+
+\begin{cventries}
+    \cventry{Experiment, survey and interview design, eye and mouse tracking, data collection and participant recruitment, including online platforms like Gorilla, PsychoPy, Qualtrics and Prolific, report writing and output generation}{Behavioural Science}{}{}{}\vspace{-4.0mm}
+    \cventry{Null hypothesis significance testing, linear fixed and mixed models, clustering, outlier detection, decision modelling, Bayesian inference}{Statistics and Modelling}{}{}{}\vspace{-4.0mm}
+    \cventry{R, Python, MATLAB, JavaScript, SQL}{Programming Languages}{}{}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{projects}{%
+\section{Projects}\label{projects}}
+
+\begin{cventries}
+    \cventry{Visual Cognition Lab, Department of Psychology, University of Cambridge}{Improving Human Performance in X-ray Baggage Screening}{}{2018 --> 2021}{\begin{cvitems}
+\item This project focussed on developing novel training to improve human performance while using the next generation of computed tomography baggage screening technology in airports
+\item Collected behavioural data from approximately 400 human research participants with applied visual search tasks programmed in Python and online with the Gorilla platform; conducted statistical analysis and modelling of decision-making, null hypothesis significance testing, Bayesian model comparisons and linear mixed-effects models
+\item Won funding from the Defence and Security Accelerator (worth £266,359), worked closely with government and industry stakeholders (e.g., Dstl, QinetiQ), outputs included three published papers and a library of three-dimensional computerised tomography images for training and security research
+\end{cvitems}}
+    \cventry{Centre for Vision and Cognition, School of Psychology, University of Southampton}{Individual Differences in Dynamic Visual Search}{}{2013 --> 2017}{\begin{cvitems}
+\item This project examined the individual cognitive, affective and personality factors that can impact human attention and the relevance of this to complex real-world visual tasks, such as air traffic control
+\item I developed experimental tasks to collect behavioural responses, eye movements and physiological data from human participants, modelled human performance using Signal Detection Theory and conducted statistical analysis including linear mixed-effects models
+\item Outputs from this project included presentations at national and international conferences, two published papers and project pages available on Github (github.com/alexmuhl-r/Dynamic-Visual-Search) and the Open Science Framework (osf.io/ahufd)
+\end{cvitems}}
+\end{cventries}
+
+\urlstyle{same}
+
+\hypertarget{selected-publications}{%
+\section{Selected Publications}\label{selected-publications}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-parker_etal22}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Parker, M. G., Muhl-Richardson, A., \& Davis, G. J.
+(2022). Enhanced threat detection in three dimensions: An image-matched
+comparison of computed tomography and dual-view X-ray baggage screening.
+\emph{Applied Ergonomics}, \emph{105}, 103834.
+\url{https://doi.org/10.1016/j.apergo.2022.103834}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-muhl-richardson_etal22}{}}%
+\CSLLeftMargin{2. }%
+\CSLRightInline{Muhl-Richardson, A., Tortosa-Molina, M., Recio, S. A.,
+Parker, M. G., \& Davis, G. J. (2022). Attenuating the {``attentional
+white bear''} effect enhances suppressive attention. \emph{Attention,
+Perception, \& Psychophysics}, \emph{84}(8), 2444--2460.
+\url{https://doi.org/10.3758/s13414-022-02560-w}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-muhl-richardson_etal21a}{}}%
+\CSLLeftMargin{3. }%
+\CSLRightInline{Muhl-Richardson, A., Parker, M. G., Recio, S. A.,
+Tortosa-Molina, M., Daffron, J. L., \& Davis, G. J. (2021). Improved
+X-ray baggage screening sensitivity with {``targetless''} search
+training. \emph{Cognitive Research: Principles and Implications},
+\emph{6}, 33. \url{https://doi.org/10.1186/s41235-021-00295-0}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-muhl-richardson_etal21}{}}%
+\CSLLeftMargin{4. }%
+\CSLRightInline{Muhl-Richardson, A., Parker, M. G., \& Davis, G. (2021).
+How the Zebra got its Rump Stripes: Salience at Distance and in Motion.
+\emph{bioRxiv}. \url{https://doi.org/10.1101/2021.04.16.440148}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Muhl-Richardson2018}{}}%
+\CSLLeftMargin{5. }%
+\CSLRightInline{Muhl-Richardson, A., Godwin, H. J., Garner, M., Hadwin,
+J. A., Liversedge, S. P., \& Donnelly, N. (2018). Individual Differences
+in Search and Monitoring for Color Targets in Dynamic Visual Displays.
+\emph{Journal of Experimental Psychology: Applied}, \emph{24}(4),
+564--577. \url{https://doi.org/10.1037/xap0000155}}
+
+\vspace{3mm}
+
+\hypertarget{selected-presentations}{%
+\section{Selected Presentations}\label{selected-presentations}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-muhl-richardson_etal23}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Muhl-Richardson, A., Parker, M. G., \& Davis, G. (2023).
+Visual Salience at Distance and in Motion: How the Zebra got its Rump
+Stripes. \emph{Experimental Psychology Society London Meeting,
+University College London, UK}, Talk.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-muhl-richardson_etal20}{}}%
+\CSLLeftMargin{2. }%
+\CSLRightInline{Muhl-Richardson, A., Parker, M. G., Tortosa-Molina, M.,
+Recio, S. A., \& Davis, G. (2020). The Attentional White Bear as a
+Failure of Proactive Suppression. \emph{Object, Perception, Attention \&
+Memory Conference, Austin, USA}, Talk.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-muhl-richardson_etal18b}{}}%
+\CSLLeftMargin{3. }%
+\CSLRightInline{Muhl-Richardson, A., Recio, S. A., \& Davis, G. (2018).
+Distractor Suppression in Visual Search. \emph{Applied Vision
+Association Christmas Meeting, Birkbeck, University of London, UK},
+Poster.}
+
+
+\label{LastPage}~
+\end{document}

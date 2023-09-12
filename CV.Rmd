@@ -1,0 +1,101 @@
+---
+name: Alex
+surname: Muhl-Richardson
+position: 
+pronouns: 
+address: 
+phone: 
+www:
+#profilepic: "./data/profile.jpg"
+email: a.muhl.richardson@gmail.com
+#twitter: alexmuhl_r
+github: alexmuhl-r
+linkedin: alex-muhl-richardson
+#googlescholar: scholar.google.com/citations?user=YXa0igwAAAAJ
+aboutme: I am a behavioural scientist interested in using psychology and data to address real-world problems, whether this is developing new approaches to improving human performance at airport security or understanding the impact of zebra stripes on predator behaviour. I have a particular interest in how individual differences in cognitive, affective and personality factors can explain human behaviour and have extensive experience collecting and working with large datasets, including behavioural, eye movement and psychophysiological data.
+#headcolor: 015985
+date:
+output:
+  vitae::awesomecv:
+    page_total: true
+    keep_tex: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = TRUE, message = TRUE)
+library(vitae)
+library(tibble)
+library(magrittr)
+library(here)
+library(readr)
+library(glue)
+library(dplyr)
+
+source(file = here("data","data.r"))
+```
+ 
+# Experience
+```{r EXPERIENCE}
+experience %>%
+  detailed_entries(
+    with = jobTitle,
+    what = employer,
+    why = detail,
+    when = glue::glue("{startDate} - {endDate}",.na = ""),
+    where = where
+  )
+```
+
+# Education
+```{r EDUCATION}
+
+education %>% 
+  detailed_entries(
+    with = degree,
+    what = inst,
+    why = detail,
+    when = glue::glue("{startYear} - {endYear}",.na = ""),
+    where = where
+  )
+
+```
+# Skills
+
+```{r SKILLS}
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+```
+
+# Projects
+
+```{r PROJECTS}
+projects %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where,
+    .protect = FALSE
+  )
+```
+
+\urlstyle{same}
+
+# Selected Publications
+
+```{r PUBLICATIONS}
+bibliography_entries(publications) %>%
+  arrange(desc(issued),desc(author$family))
+```
+\vspace{3mm}
+
+# Selected Presentations
+
+```{r PRESENTATIONS}
+bibliography_entries(presentations) %>%
+  arrange(desc(issued),desc(author$family))
+```
