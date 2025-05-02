@@ -12,7 +12,7 @@ email: a.muhl.richardson@gmail.com
 github: alexmuhl-r
 linkedin: alex-muhl-richardson
 #googlescholar: scholar.google.com/citations?user=YXa0igwAAAAJ
-aboutme: I am a behavioural scientist interested in using psychology and data to address real-world problems, whether this is developing new approaches to improving human performance at airport security or understanding the impact of zebra stripes on predator behaviour. I have a particular interest in how individual differences in cognitive, affective and personality factors can explain human behaviour and have extensive experience collecting and working with large datasets, including behavioural, eye movement and psychophysiological data.
+aboutme: I am a behavioural scientist and psychologist interested in new approaches to solving real-world problems. I have interests in human performance optimisation and individual differences in behaviour. I have extensive experience leading and managing research, including developing data collection methodologies, working with large datasets, data analysis, developing actionable insights and report writing.
 #headcolor: 015985
 date:
 output:
