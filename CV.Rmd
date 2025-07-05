@@ -1,18 +1,18 @@
 ---
-name: Alex
-surname: Muhl-Richardson
+name: Muhammet Melik
+surname: Kolgesiz
 position: 
 pronouns: 
 address: 
 phone: 
 www:
 #profilepic: "./data/profile.jpg"
-email: a.muhl.richardson@gmail.com
+email: melik.kolgesiz@gmail.com
 #twitter: alexmuhl_r
-github: alexmuhl-r
-linkedin: alex-muhl-richardson
+github: mkolgesiz
+linkedin: mkolgesiz
 #googlescholar: scholar.google.com/citations?user=YXa0igwAAAAJ
-aboutme: I am a behavioural scientist and psychologist interested in new approaches to solving real-world problems. I have interests in human performance optimisation and individual differences in behaviour. I have extensive experience leading and managing research, including developing data collection methodologies, working with large datasets, data analysis, developing actionable insights and report writing.
+aboutme: To be written later
 #headcolor: 015985
 date:
 output:
@@ -83,19 +83,3 @@ projects %>%
   )
 ```
 
-\urlstyle{same}
-
-# Selected Publications
-
-```{r PUBLICATIONS}
-bibliography_entries(publications) %>%
-  arrange(desc(issued),desc(author$family))
-```
-\vspace{3mm}
-
-# Selected Presentations
-
-```{r PRESENTATIONS}
-bibliography_entries(presentations) %>%
-  arrange(desc(issued),desc(author$family))
-```
