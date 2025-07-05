@@ -330,6 +330,10 @@
 % Usage: \gitlab{<gitlab-nick>}
 \newcommand*{\gitlab}[1]{\def\@gitlab{#1}}
 
+% Defines writer's huggingface (optional)
+% Usage: \huggingface{<huggingface-nick>}
+\newcommand*{\huggingface}[1]{\def\@huggingface{#1}}
+
 % Defines writer's stackoverflow profile (optional)
 % Usage: \stackoverflow{<so userid>}{<so username>}
 %   e.g.https://stackoverflow.com/users/123456/sam-smith
@@ -533,6 +537,12 @@
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \href{https://gitlab.com/\@gitlab}{\faGitlab\acvHeaderIconSep\@gitlab}%
+        }%
+      \ifthenelse{\isundefined{\@huggingface}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \href{https://huggingface.co/\@huggingface}{\faReddit\acvHeaderIconSep\@huggingface}%
         }%
       \ifthenelse{\isundefined{\@stackoverflowid}}%
         {}%
