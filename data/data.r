@@ -4,18 +4,25 @@ experience <- tribble(
     "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Established comprehensive internal control systems and created department's first knowledge base with structured guidelines for AP, AR, treasury, and tax processes",
     "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Streamlined and automated invoicing process, reducing processing time from 4 days to 2 days",
     "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Implemented quality control measures reducing invoicing and accounting errors from 4% to less than 1%",
-    "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Developed Power Query transformation templates for team-wide use, enhancing data processing efficiency across all financial reporting",
-    "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Implemented robust document processing guidelines that significantly reduced audit preparation time and improved compliance documentation"
-    )
+    "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Implemented robust document processing guidelines that significantly reduced audit preparation time and improved compliance documentation",
+    "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Cote D'Ivoire", "Managed accounting and finance operations across four West African countries (Cote D'Ivoire, Burkina Faso, Benin, Sierra Leone) with combined annual revenue exceeding $25 million",
+    "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Cote D'Ivoire", "Oversaw local accounting and company accounting processes for regional operations, ensuring compliance with local regulations and company standards",
+    "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Cote D'Ivoire", "Led annual audit processes for multi-country operations, maintaining high compliance standards across all jurisdictions",
+    "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Cote D'Ivoire", "Selected for Sierra Leone new office establishment team, overseeing all financial and operational setup processes for market entry",
+    "Revenue Accounting Specialist", "Turkish Airlines", "08/2015", "02/2017", "Istanbul, Turkey", "Managed revenue accounting operations for East Asia region, overseeing accounts receivable processes across multiple markets",
+    "Revenue Accounting Specialist", "Turkish Airlines", "08/2015", "02/2017", "Istanbul, Turkey", "Collaborated with regional accounting managers to ensure compliance and accuracy in daily accounting operations",
+    "Revenue Accounting Specialist", "Turkish Airlines", "08/2015", "02/2017", "Istanbul, Turkey", "Monitored and controlled day-to-day operations for accounts receivable processes, maintaining high standards of financial accuracy",
+    "Revenue Accounting Specialist", "Turkish Airlines", "08/2015", "02/2017", "Istanbul, Turkey", "Successfully resolved complex reconciliation issues with major general cargo sales agencies across East Asia through cross-functional collaboration with regional accounting managers and cargo revenue department",
+        )
 
 skills <- tribble(
   ~area, ~skills,
-  "Accounting", "Bookkeeping, IFRS, SYSCOHADA, TFRS",
-  "Finance", "Budget planning and scenario modelling, forecasting, financial statement preparation",
-  "Data Analytics", "Historical trend analysis, time series analysis, automated reporting, data quality analysis, workflow analysis and botteleneck identification",   
-  "Programming Languages", "R, Python, SQL",
-  "Software", "SAP, ODOO, SAGE 100c, PowerBI, Tableau, Crystal Reports",
-  "Other", "Git, Quarto, Markdown"
+  "Accounting & Compliance", "IFRS, SYSCOHADA, TFRS, Financial Reporting, Management Accounting, Cost Accounting, Internal Controls",
+  "Finance & Analysis", "Budget Planning, Financial Forecasting, Scenario Modeling, Cash Flow Management, Financial Statement Preparation, Variance Analysis",
+  "Data Analytics & Automation", "Process Automation, Data Analysis, Reporting Automation, Workflow Optimization, Quality Control, Performance Metrics",   
+  "Technical Skills", "R, Python, SQL, Power BI, Tableau, SAP, ODOO, SAGE 100c, Crystal Reports, Power Automate",
+  "Leadership & Management", "Team Leadership, Cross-functional Collaboration, Project Management, Process Improvement, Training & Development",
+  "Regional Expertise", "Multi-country Operations, International Compliance, Market Entry, Audit Management, Regulatory Compliance"
 )
 
 lskills <- data.frame(

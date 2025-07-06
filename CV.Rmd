@@ -10,7 +10,7 @@ phone:
 email: melik.kolgesiz@gmail.com
 #twitter: mkolgesiz
 github: mkolgesiz
-huggingface: mkolgesiz
+# huggingface: mkolgesiz
 linkedin: mkolgesiz
 aboutme: "I am a detail-oriented financial controller with a passion for process improvement and data analytics. I enjoy solving business problems through systematic approaches and have a strong interest in automation and technology-driven solutions in finance."
 #headcolor: 015985
@@ -57,6 +57,9 @@ skills %>%
     what = skills
   )
 ```
+
+\newpage
+
 ## **Languages**
 ```{r LSKILLS}
 
