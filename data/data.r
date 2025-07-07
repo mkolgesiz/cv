@@ -29,7 +29,7 @@ lskills <- data.frame(
   Skill = cell_spec(c("Reading", "Writing", "Listening","Speaking"), color = "black", bold = FALSE),
   Turkish = cell_spec(c(rep("Native", 4)), 'latex', color = "black", bold = FALSE),
   English = cell_spec(c("C1","C1", "C2", "C1"), 'latex', color = "black", bold = FALSE),
-  French = cell_spec(c("C1","C1", "C2", "C1"), 'latex', color = "black", bold = FALSE)
+  French = cell_spec(c("B1","B1", "B1", "B1"), 'latex', color = "black", bold = FALSE)
 )
 
 projects <- tribble(
