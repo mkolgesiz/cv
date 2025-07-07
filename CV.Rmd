@@ -5,7 +5,7 @@ position:
 pronouns: 
 address: 
 phone: 
-#www: "www.mkolgesiz.github.io/blog-r"
+www: "www.mkolgesiz.github.io/"
 #profilepic: "./data/profile.jpg"
 email: melik.kolgesiz@gmail.com
 #twitter: mkolgesiz

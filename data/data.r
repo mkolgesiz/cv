@@ -1,6 +1,6 @@
 experience <- tribble(
     ~jobTitle, ~employer, ~startDate, ~endDate, ~where, ~detail,
-    "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Lead a 6-person accounting and finance team, overseeing all financial operations and ensuring compliance with IFRS and local regulations",
+    "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Lead the accounting and finance team, overseeing all financial operations and ensuring compliance with IFRS and local regulations",
     "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Established comprehensive internal control systems and created department's first knowledge base with structured guidelines for AP, AR, treasury, and tax processes",
     "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Streamlined and automated invoicing process, reducing processing time from 4 days to 2 days",
     "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Implemented quality control measures reducing invoicing and accounting errors from 4% to less than 1%",
@@ -41,7 +41,7 @@ projects <- tribble(
 
 education <- tribble(
     ~degree, ~inst, ~startYear, ~endYear, ~where, ~detail,
-    "BA International Relations", "IIBF, Uludag University", "2006", "2011", "Bursa, Turkey", NA
+    "Bachelor of International Relations", "Faculty of Economics and Administrative Sciences, Uludag University", "2006", "2011", "Bursa, Turkey", NA
 )
 
 # certifications <- tribble(
