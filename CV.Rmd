@@ -1,14 +1,14 @@
 ---
 name: Muhammet Melik
 surname: Kolgesiz
-position: 
+#position: "Financial Controller"
 pronouns: 
-address: 
+#address: "Abidjan, Côte d'Ivoire" 
 phone: 
-www: "www.mkolgesiz.github.io/"
+www: "melik.cc"
 #profilepic: "./data/profile.jpg"
 email: melik.kolgesiz@gmail.com
-#twitter: mkolgesiz
+#twitter: kolgesizm
 github: mkolgesiz
 # huggingface: mkolgesiz
 linkedin: mkolgesiz

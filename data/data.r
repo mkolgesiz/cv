@@ -1,10 +1,10 @@
 experience <- tribble(
     ~jobTitle, ~employer, ~startDate, ~endDate, ~where, ~detail,
-    "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Lead the accounting and finance team, overseeing all financial operations and ensuring compliance with IFRS and local regulations",
-    "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Established comprehensive internal control systems and created department's first knowledge base with structured guidelines for AP, AR, treasury, and tax processes",
-    "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Streamlined and automated invoicing process, reducing processing time from 4 days to 2 days",
-    "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Implemented quality control measures reducing invoicing and accounting errors from 4% to less than 1%",
-    "Financial Controller", "Abeille Carriere", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Implemented robust document processing guidelines that significantly reduced audit preparation time and improved compliance documentation",
+    "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Lead the accounting and finance team for two companies, overseeing all financial operations and ensuring compliance with IFRS and local regulations",
+    "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Established comprehensive internal control systems and created department's first knowledge base with structured guidelines for AP, AR, treasury, and tax processes",
+    "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Streamlined and automated invoicing process, reducing processing time from 4 days to 2 days",
+    "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Implemented quality control measures reducing invoicing and accounting errors from 4% to less than 1%",
+    "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Implemented robust document processing guidelines that significantly reduced audit preparation time and improved compliance documentation",
     "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Cote D'Ivoire", "Managed accounting and finance operations across four West African countries (Cote D'Ivoire, Burkina Faso, Benin, Sierra Leone) with combined annual revenue exceeding $25 million",
     "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Cote D'Ivoire", "Oversaw local accounting and company accounting processes for regional operations, ensuring compliance with local regulations and company standards",
     "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Cote D'Ivoire", "Led annual audit processes for multi-country operations, maintaining high compliance standards across all jurisdictions",
@@ -34,9 +34,10 @@ lskills <- data.frame(
 
 projects <- tribble(
   ~area, ~accomplishment, ~year, ~where, ~detail,
-  "Knowledge Management", "Department Knowledge Base", "2022", "Abeille Carriere", "Created comprehensive knowledge base with structured guidelines, checklists, and how-to guides for all accounting and financial processes",
-  "Process Automation", "Invoicing Process Optimization", "2023", "Abeille Carriere", "Redesigned and automated invoicing workflow using ERP and Power Automate, reducing processing time from 4 days to 2 days",
-  "Quality Management", "Error Reduction Initiative", "2024", "Abeille Carriere", "Implemented systematic internal control measures that reduced accounting errors from 4% to less than 1%"
+  "Knowledge Management", "Department Knowledge Base", "2022", "Abeille Groupe", "Created comprehensive knowledge base with structured guidelines, checklists, and how-to guides for all accounting and financial processes",
+  "Process Automation", "Invoicing Process Optimization", "2023", "Abeille Groupe", "Redesigned and automated invoicing workflow using ERP and Power Automate, reducing processing time from 4 days to 2 days",
+  "Quality Management", "Error Reduction Initiative", "2024", "Abeille Groupe", "Implemented systematic internal control measures that reduced accounting errors from 4% to less than 1%",
+  "Data Analytics", "ETL Pipeline Implementation", "2024", "Abeille Groupe", "Initiated and led ETL pipeline project as subject matter expert and end user, enabling faster and more accurate report preparation"
 )
 
 education <- tribble(
