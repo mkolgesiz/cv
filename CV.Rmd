@@ -7,7 +7,7 @@ pronouns:
 phone: 
 www: "melik.cc"
 #profilepic: "./data/profile.jpg"
-email: melik.kolgesiz@gmail.com
+email: melik@melik.cc
 #twitter: kolgesizm
 github: mkolgesiz
 # huggingface: mkolgesiz
