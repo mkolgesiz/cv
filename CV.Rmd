@@ -102,3 +102,15 @@ projects %>%
   )
 ```
 
+# Certifications
+```{r CERTIFICATIONS}
+certifications %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
