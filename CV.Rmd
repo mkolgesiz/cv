@@ -1,0 +1,116 @@
+---
+name: Muhammet Melik
+surname: Kolgesiz
+#position: "Financial Controller"
+pronouns: 
+#address: "Abidjan, Côte d'Ivoire" 
+phone: 
+www: "melik.cc"
+#profilepic: "./data/profile.jpg"
+email: melik@melik.cc
+#twitter: kolgesizm
+github: mkolgesiz
+huggingface: mkolgesiz
+linkedin: mkolgesiz
+aboutme: "I am a detail-oriented financial controller with a passion for process improvement and data analytics. I enjoy solving business problems through systematic approaches and have a strong interest in automation and technology-driven solutions in finance."
+#headcolor: 015985
+date:
+output:
+  vitae::awesomecv:
+    page_total: true
+    keep_tex: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = TRUE, message = TRUE)
+library(vitae)
+library(tibble)
+library(magrittr)
+library(here)
+library(readr)
+library(glue)
+library(dplyr)
+library(kableExtra)
+library(huxtable)
+library(gridExtra)
+
+source(file = here("data","data.r"))
+```
+ 
+# Experience
+```{r EXPERIENCE}
+experience %>%
+  detailed_entries(
+    with = jobTitle,
+    what = employer,
+    why = detail,
+    when = glue::glue("{startDate} - {endDate}",.na = ""),
+    where = where
+  )
+```
+
+# Skills
+```{r SKILLS}
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+```
+
+\newpage
+
+## **Languages**
+```{r LSKILLS}
+
+lskills %>% 
+  kable(booktabs = T, align = 'c', escape = F, format = "latex") %>% 
+  kable_styling(full_width = T, font_size = 9, latex_options = "HOLD_position") %>% 
+  footnote(
+    footnote_as_chunk = T,
+    general_title = " ",
+    general = "\\\\tiny \\\\textcolor{black}{Common European Framework of Reference for Languages: A1/A2: Basic User. B1/B2: Independent User. C1/C2: Proficient User}",
+    escape = F
+  ) %>% 
+  column_spec(column = 1:2, width = '2.4cm') 
+```
+
+# Education
+```{r EDUCATION}
+
+education %>% 
+  detailed_entries(
+    with = degree,
+    what = inst,
+    why = detail,
+    when = glue::glue("{startYear} - {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+# Projects
+```{r PROJECTS}
+projects %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where,
+    .protect = FALSE
+  )
+```
+
+# Certifications
+```{r CERTIFICATIONS}
+certifications %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
