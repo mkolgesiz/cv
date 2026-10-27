@@ -12,7 +12,7 @@ email: melik@melik.cc
 github: mkolgesiz
 huggingface: mkolgesiz
 linkedin: mkolgesiz
-aboutme: "I am a detail-oriented financial controller with a passion for process improvement and data analytics. I enjoy solving business problems through systematic approaches and have a strong interest in automation and technology-driven solutions in finance."
+aboutme: "I am a detail-oriented financial controller in the building materials industry (quarries and ready-mix concrete), with a passion for process improvement and data analytics. I enjoy solving business problems through systematic approaches and have a strong interest in automation and technology-driven solutions in finance."
 #headcolor: 015985
 date:
 output:
@@ -35,6 +35,20 @@ library(huxtable)
 library(gridExtra)
 
 source(file = here("data","data.r"))
+```
+```{=latex}
+% Fix overlapping entries with current vitae/TeX Live: no negative space after bullet lists
+\renewenvironment{cvitems}{%
+  \vspace{-3.5mm}
+  \begin{justify}
+  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+    \setlength{\parskip}{0pt}
+    \renewcommand{\labelitemi}{\bullet}
+}{%
+  \end{itemize}
+  \end{justify}
+  \vspace{1mm}
+}
 ```
  
 # Experience

@@ -1,14 +1,15 @@
 experience <- tribble(
   ~jobTitle, ~employer, ~startDate, ~endDate, ~where, ~detail,
-  "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Lead the accounting and finance team for two companies, overseeing all financial operations and ensuring compliance with IFRS and local regulations",
-  "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Established comprehensive internal control systems and created department's first knowledge base with structured guidelines for AP, AR, treasury, and tax processes",
-  "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Streamlined and automated invoicing process, reducing processing time from 4 days to 2 days",
-  "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Implemented quality control measures reducing invoicing and accounting errors from 4% to less than 1%",
-  "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan, Cote D'Ivoire", "Implemented robust document processing guidelines that significantly reduced audit preparation time and improved compliance documentation",
-  "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Cote D'Ivoire", "Managed accounting and finance operations across four West African countries (Cote D'Ivoire, Burkina Faso, Benin, Sierra Leone) with combined annual revenue exceeding $25 million",
-  "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Cote D'Ivoire", "Oversaw local accounting and company accounting processes for regional operations, ensuring compliance with local regulations and company standards",
-  "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Cote D'Ivoire", "Led annual audit processes for multi-country operations, maintaining high compliance standards across all jurisdictions",
-  "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Cote D'Ivoire", "Selected for Sierra Leone new office establishment team, overseeing all financial and operational setup processes for market entry",
+  "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan / Remote", "Lead the accounting and finance team for two building materials companies (stone quarries and ready-mix concrete plants), overseeing all financial operations and ensuring compliance with IFRS and local regulations",
+  "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan / Remote", "Established comprehensive internal control systems and created department's first knowledge base with structured guidelines for AP, AR, treasury, and tax processes",
+  "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan / Remote", "Streamlined and automated invoicing process, reducing processing time from 4 days to 2 days",
+  "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan / Remote", "Implemented quality control measures reducing invoicing and accounting errors from 4% to less than 1%",
+  "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan / Remote", "Led e-invoicing integration and staff training, achieving a smooth go-live in late 2025 with no operational disruption",
+  "Financial Controller", "Abeille Groupe", "10/2021", "Present", "Abidjan / Remote", "Implemented robust document processing guidelines that significantly reduced audit preparation time and improved compliance documentation",
+  "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Côte d'Ivoire", "Managed accounting and finance operations across four West African countries (Côte d'Ivoire, Burkina Faso, Benin, Sierra Leone) with combined annual revenue exceeding $25 million",
+  "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Côte d'Ivoire", "Oversaw local accounting and company accounting processes for regional operations, ensuring compliance with local regulations and company standards",
+  "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Côte d'Ivoire", "Led annual audit processes for multi-country operations, maintaining high compliance standards across all jurisdictions",
+  "Regional Accounting Manager", "Turkish Airlines", "02/2017", "09/2021", "Abidjan, Côte d'Ivoire", "Selected for Sierra Leone new office establishment team, overseeing all financial and operational setup processes for market entry",
   "Revenue Accounting Specialist", "Turkish Airlines", "08/2015", "02/2017", "Istanbul, Turkey", "Managed revenue accounting operations for East Asia region, overseeing accounts receivable processes across multiple markets",
   "Revenue Accounting Specialist", "Turkish Airlines", "08/2015", "02/2017", "Istanbul, Turkey", "Collaborated with regional accounting managers to ensure compliance and accuracy in daily accounting operations",
   "Revenue Accounting Specialist", "Turkish Airlines", "08/2015", "02/2017", "Istanbul, Turkey", "Monitored and controlled day-to-day operations for accounts receivable processes, maintaining high standards of financial accuracy",
@@ -36,8 +37,9 @@ projects <- tribble(
   ~area, ~accomplishment, ~year, ~where, ~detail,
   "Knowledge Management", "Department Knowledge Base", "2022", "Abeille Groupe", "Created comprehensive knowledge base with structured guidelines, checklists, and how-to guides for all accounting and financial processes",
   "Process Automation", "Invoicing Process Optimization", "2023", "Abeille Groupe", "Redesigned and automated invoicing workflow using ERP and Power Automate, reducing processing time from 4 days to 2 days",
-  "Quality Management", "Error Reduction Initiative", "2024", "Abeille Groupe", "Implemented systematic internal control measures that reduced accounting errors from 4% to less than 1%",
-  "Data Analytics", "ETL Pipeline Implementation", "2024", "Abeille Groupe", "Initiated and led ETL pipeline project as subject matter expert and end user, enabling faster and more accurate report preparation"
+  "Quality Management", "Error Reduction Initiative", "2024", "Abeille Groupe", "Implemented systematic internal control measures that reduced accounting errors from 4\\% to less than 1\\%",
+  "Data Analytics", "ETL Pipeline Implementation", "2024", "Abeille Groupe", "Initiated and led ETL pipeline project as subject matter expert and end user, enabling faster and more accurate report preparation",
+  "Digital Transformation", "E-Invoicing Integration", "2025", "Abeille Groupe", "Led end-to-end e-invoicing integration and user training; system went live in late 2025 and has run without disruption, ensuring compliance with e-invoicing requirements"
 )
 
 education <- tribble(
